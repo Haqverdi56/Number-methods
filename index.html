@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    
+    Number.prototype.add = function (num) {
+        return this+num
+    }
+    Number.prototype.substract = function (num) {
+        return this-num
+    }
+    Number.prototype.divide = function (num) {
+        return this/num
+    }
+    Number.prototype.multipy = function (num) {
+        return this*num
+    }
+
+    let result = new Number(5).add(3).substract(4).divide(2).multipy(10)
+    console.log(result)
+
+
+</script>
+</html>
